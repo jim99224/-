@@ -60,7 +60,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
 <pre class="highlight"><code>
 
-<img style="width: 100px; height: 100px;" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" data-type="image">
+<img style="width: 100px; height: 100px;float:left;" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" data-type="image">
 
 
 台江國家公園管理處處徽採以河口、黑面琵鷺加上台灣船、鲲鯓（沙洲）為設計元素，表現陸域資源特色及
