@@ -24,28 +24,7 @@ $("#gotop").click(function(){
 		$("html,body").animate({scrollTop:"0px"},200);
 });
 
-<style type="text/css">
-.item .pic { 
-	float:left;
-	margin-right:10px;
-	width:100px;
-	height:100px;
-}
-.item .content {
-	float:left;
-	width:500px;
-}
 </style>
-
-</style>
-
-#DIV2{
-width:200px;
-line-height:50px;
-padding:20px;
-border:2px green solid;
-float:left;
-}
 
 <h1 style="color: black; font-weight: bold;font-size:1cm"><center>台江國家公園</center></h1>
 
@@ -74,19 +53,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
 <pre class="highlight"><code>
 
-<div class="item">
-<div class="pic">
-<img src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg">
-</div>
+<p><img style="width:100px;height:100px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" align="left">
 
-<div class="content">
 台江國家公園管理處處徽採以河口、黑面琵鷺加上台灣船、鲲鯓（沙洲）
 為設計元素，表現陸域資源特色及台江先民勇渡黑水溝（台灣海峽）墾
 拓顯著歷史，象徵台江國家公園的使命與目標。色彩上以「綠色」表現
 自然生態生生不息，「藍色」寓意海洋生態資源豐沛之意象，整體造形
 既傳達台灣歷史足跡，更表現出台江國家公園獨有的特色。
-</div>
-</div>
+</p>
 
 </code></pre>
 
