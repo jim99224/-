@@ -50,12 +50,12 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 ### 國家公園標誌意涵
-```markdown
+<pre class="highlight"><code>
 
 <img style="width: 560px; height: 280px;" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" data-type="image">
 
 台江國家公園管理處處徽採以河口、黑面琵鷺加上台灣船、鲲鯓（沙洲）為設計元素，表現陸域資源特色及台江先民勇渡黑水溝（台灣海峽）墾拓顯著歷史，象徵台江國家公園的使命與目標。色彩上以「綠色」表現自然生態生生不息，「藍色」寓意海洋生態資源豐沛之意象，整體造形既傳達台灣歷史足跡，更表現出台江國家公園獨有的特色。
-```
+</code></pre>
 
 ### 公園特色介紹
 
