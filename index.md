@@ -49,7 +49,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ```
 
 
-<h1 style="color: black; font-weight: bold;font-size:1cm">國家公園標誌意涵</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.7cm">國家公園標誌意涵</h1>
 <pre class="highlight"><code>
 
 <img style="width: 100px; height: 100px;" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" data-type="image">
