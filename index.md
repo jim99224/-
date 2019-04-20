@@ -23,6 +23,7 @@ $(function(){
 $("#gotop").click(function(){ 
 		$("html,body").animate({scrollTop:"0px"},200);
 });
+<style type="text/css">
 .item .pic { 
 	float:left;
 	margin-right:10px;
@@ -32,6 +33,7 @@ $("#gotop").click(function(){
 .item .content {float:left;
 	width:500px;
 }
+</style>
 </style>
 
 #DIV2{
