@@ -34,7 +34,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 <pre class="highlight"><code>
-<h2>1.範圍 :</h2> 臺南市安南區與七股區濱海陸域，包含四草、鹿耳門、原安順鹽田周遭、七股潟湖以及海域至澎湖縣東吉嶼。
+<h2>1.範圍 :</h2> 臺南市安南區與七股區濱海陸域，包含四草、鹿耳門、原安順鹽田、七股潟湖以及海域至澎湖縣東吉嶼。
 <h2>2.地勢 :</h2> 地區域原為內海，平均高程僅0.5公尺、無高山。
 <h2>3.河川 :</h2>主要河川有三條，俱為東西向：曾文溪 鹿耳門溪 鹽水溪 
 <h2>4.濕地 :</h2>曾文溪口濕地：國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。
@@ -57,13 +57,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 </code></pre>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">公園特色介紹</h1>
-
+<pre class="highlight"><code>
 濕地:2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
 
 河口沙洲潟湖生態:海灘、沙洲、沙嘴、瀉湖、海埔地
 
 紅樹林濕地生態:曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性
-
+</code></pre>
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">交通資訊</h1>
