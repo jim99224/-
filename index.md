@@ -33,7 +33,7 @@ You can use the [editor on GitHub](https://github.com/jim99224/-/edit/master/ind
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
-<span style="background-color:orange;margin-right:5px;">
+<body style="background-color:gray;">
 <h2>1.範圍 :</h2> 臺南市安南區與七股區濱海陸域，包含四草、鹿耳門、原安順鹽田、七股潟湖以及海域至澎湖縣東吉嶼。
 <h2>2.地勢 :</h2> 地區域原為內海，平均高程僅0.5公尺、無高山。
 <h2>3.河川 :</h2>主要河川有三條，俱為東西向：曾文溪 鹿耳門溪 鹽水溪 
@@ -41,7 +41,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。
 七股鹽田濕地：國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。
 鹽水溪口濕地：國家級，有藻類、紅樹林等。
-</span>
+</body>
 
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
