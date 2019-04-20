@@ -34,7 +34,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 
-<pre class="highlight"><code>
+<pre class="highlight" style="color: black;><code>
 ## 1.範圍 : 
 臺南市安南區與七股區濱海陸域，包含四草、鹿耳門、原安順鹽田周遭、七股潟湖以及海域至澎湖縣東吉嶼。
 ## 2.地勢 : 
