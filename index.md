@@ -68,6 +68,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 自然生態生生不息，「藍色」寓意海洋生態資源豐沛之意象，整體造形既傳達台灣歷史足跡，更表現出台江
 國家公園獨有的特色。
 </div>
+<div style="clear:both;"></div>
 
 </code></pre>
 
