@@ -23,6 +23,7 @@ $(function(){
 $("#gotop").click(function(){ 
 		$("html,body").animate({scrollTop:"0px"},200);
 });
+
 <style type="text/css">
 .item .pic { 
 	float:left;
@@ -30,10 +31,12 @@ $("#gotop").click(function(){
 	width:100px;
 	height:100px;
 }
-.item .content {float:left;
+.item .content {
+	float:left;
 	width:500px;
 }
 </style>
+
 </style>
 
 #DIV2{
@@ -71,6 +74,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
 <pre class="highlight"><code>
 
+<div class="item">
 <div class="pic">
 <img src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg">
 </div>
@@ -80,6 +84,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 台江先民勇渡黑水溝（台灣海峽）墾拓顯著歷史，象徵台江國家公園的使命與目標。色彩上以「綠色」表現
 自然生態生生不息，「藍色」寓意海洋生態資源豐沛之意象，整體造形既傳達台灣歷史足跡，更表現出台江
 國家公園獨有的特色。
+</div>
 </div>
 
 </code></pre>
