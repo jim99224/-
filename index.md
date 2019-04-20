@@ -33,7 +33,6 @@ You can use the [editor on GitHub](https://github.com/jim99224/-/edit/master/ind
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
-
 <pre class="highlight"><code>
 <h2>1.範圍 :</h2> 臺南市安南區與七股區濱海陸域，包含四草、鹿耳門、原安順鹽田周遭、七股潟湖以及海域至澎湖縣東吉嶼。
 <h2>2.地勢 :</h2> 地區域原為內海，平均高程僅0.5公尺、無高山。
