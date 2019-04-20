@@ -25,7 +25,7 @@ $("#gotop").click(function(){
 });
 </style>
 
-<h1 style="color: black; font-weight: bold;font-size:1cm">台江國家公園</h1>
+<h1 style="color: black; font-weight: bold;font-size:1cm"><center>台江國家公園</center></h1>
 
 You can use the [editor on GitHub](https://github.com/jim99224/-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
