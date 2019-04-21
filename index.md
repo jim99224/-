@@ -45,7 +45,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">國家公園標誌意涵</h1>
-<pre class="highlight"><code>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
 <p><img style="width:100px;height:100px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/04_news/8logo.jpg" align="left">
 
@@ -54,7 +54,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 生態生生不息，「藍色」寓意海洋生態資源豐沛之意象，整體造形既傳達台灣歷史足跡。
 </p>
 
-</code></pre>
+</div>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">公園特色介紹</h1>
 <pre class="highlight"><code>
