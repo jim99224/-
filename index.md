@@ -64,6 +64,7 @@ $("#gotop").click(function(){
 
 五、古蹟與史蹟 : 四草砲台（國定二級古蹟）、安順鹽場運鹽碼頭（市定古蹟）、鹿耳門港、竹筏港
 
+
 </div>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">交通資訊</h1>
