@@ -59,9 +59,14 @@ $("#gotop").click(function(){
 </div>
 
 <h2>二、河口沙洲潟湖生態 : </h2>
-<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-海灘、沙洲、沙嘴、瀉湖、海埔地
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<h3 style="font-size:18px;font-family:標楷體">海灘：因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
+<h3 style="font-size:18px;font-family:標楷體">沙洲：海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
+<h3 style="font-size:18px;font-family:標楷體">沙嘴：沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
+<h3 style="font-size:18px;font-family:標楷體">潟湖：濱外沙洲與陸地之間所圍的水域。</h3>
+<h3 style="font-size:18px;font-family:標楷體">海埔地：即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
 </div>
+
 <h2>三、紅樹林濕地生態 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
 曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性
