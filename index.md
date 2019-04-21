@@ -50,7 +50,7 @@ $("#gotop").click(function(){
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">公園特色介紹</h1>
 
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-一、濕地 : 2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
+<h2>一、濕地 :</h2> 2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
 	
 
 二、河口沙洲潟湖生態 : 海灘、沙洲、沙嘴、瀉湖、海埔地
