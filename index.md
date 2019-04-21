@@ -57,13 +57,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 </div>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">公園特色介紹</h1>
-<pre class="highlight"><code>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 濕地:2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
 
 河口沙洲潟湖生態:海灘、沙洲、沙嘴、瀉湖、海埔地
 
 紅樹林濕地生態:曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性
-</code></pre>
+</div>
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">交通資訊</h1>
