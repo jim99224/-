@@ -28,10 +28,6 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:1cm"><center>台江國家公園</center></h1>
 
-You can use the [editor on GitHub](https://github.com/jim99224/-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
 台江國家公園是臺灣第8座國家公園，也是臺灣唯一濕地型國家公園。位於河海匯流之地，薈萃了「自然生態」、「人文歷史」與「漁鹽產業」等三大資源特色。廣大的河口、潟湖、魚塭及紅樹林等豐美的濕地環境，孕育了豐饒的生態資源，秋冬時節，也是候鳥過境、度冬的良好棲所；內海滄桑之變與開臺歷史，見證了台江地區深厚的文化底蘊；而阡陌縱橫的魚塭與鹽田，交織出人類與自然環境的和諧互動。台江國家公園宛若是一間間的戶外大教室，也是一所可以親近自然學習的濕地學校。
