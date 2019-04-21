@@ -57,6 +57,7 @@ $("#gotop").click(function(){
 七股鹽田濕地：國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。
 鹽水溪口濕地：國家級，有藻類、紅樹林等。
 </div>
+
 <h2>二、河口沙洲潟湖生態 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
 海灘、沙洲、沙嘴、瀉湖、海埔地
