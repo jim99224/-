@@ -51,7 +51,11 @@ $("#gotop").click(function(){
 
 <h2>一、濕地 :</h2> 
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
+2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。
+曾文溪口濕地：國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。
+四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。
+七股鹽田濕地：國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。
+鹽水溪口濕地：國家級，有藻類、紅樹林等。
 </div>
 <h2>二、河口沙洲潟湖生態 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
