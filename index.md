@@ -54,19 +54,19 @@ $("#gotop").click(function(){
 <p><img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salt_Mountain.jpg/275px-Salt_Mountain.jpg" align="left">
 <h3 style="font-size:18px;font-family:標楷體;font-weight:900;">2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h3>
 <h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">曾文溪口濕地：</gg>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
-<h4 style="font-size:18px;font-family:標楷體">四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
-<h4 style="font-size:18px;font-family:標楷體">七股鹽田濕地：國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
-<h4 style="font-size:18px;font-family:標楷體">鹽水溪口濕地：國家級，有藻類、紅樹林等。</h4>
+<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">四草濕地：</gg>國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
+<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
+<h4 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
 </p>
 </div>
 
 <h2>二、河口沙洲潟湖生態 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<h3 style="font-size:18px;font-family:標楷體">海灘：因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
-<h3 style="font-size:18px;font-family:標楷體">沙洲：海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
-<h3 style="font-size:18px;font-family:標楷體">沙嘴：沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
-<h3 style="font-size:18px;font-family:標楷體">潟湖：濱外沙洲與陸地之間所圍的水域。</h3>
-<h3 style="font-size:18px;font-family:標楷體">海埔地：即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
+<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
+<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">沙洲：</gg>海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
+<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">沙嘴：</gg>沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
+<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">潟湖：</gg>濱外沙洲與陸地之間所圍的水域。</h3>
+<h3 style="font-size:18px;font-family:標楷體"><gg style="font-weight:900;">海埔地：</gg>即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
 </div>
 
 <h2>三、紅樹林濕地生態 : </h2>
