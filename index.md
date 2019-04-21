@@ -53,7 +53,7 @@ $("#gotop").click(function(){
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 <p><img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salt_Mountain.jpg/275px-Salt_Mountain.jpg" align="left">
 <h3 style="font-size:18px;font-family:標楷體;font-weight:900;">2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h3>
-<h4 style="font-size:18px;font-family:標楷體"><h4 style="font-weight:900;">曾文溪口濕地：</h4>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
+<h4 style="font-size:18px;font-family:標楷體"><p style="font-weight:900;">曾文溪口濕地：</p>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
 <h4 style="font-size:18px;font-family:標楷體">四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
 <h4 style="font-size:18px;font-family:標楷體">七股鹽田濕地：國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
 <h4 style="font-size:18px;font-family:標楷體">鹽水溪口濕地：國家級，有藻類、紅樹林等。</h4>
