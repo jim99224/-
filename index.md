@@ -49,15 +49,28 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">公園特色介紹</h1>
 
+<h2>一、濕地 :</h2> 
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-<h4>一、濕地 :</h4> 2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
-<h4>二、河口沙洲潟湖生態 : </h4>海灘、沙洲、沙嘴、瀉湖、海埔地
-<h4>三、紅樹林濕地生態 : </h4>曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性
-<h4>四、沙洲 : </h4>青山港汕、網仔寮汕、頂頭額汕、新浮崙汕、曾文溪口離岸沙洲、臺南城西濱海沙洲
-<h4>五、古蹟與史蹟 : </h4>四草砲台（國定二級古蹟）、安順鹽場運鹽碼頭（市定古蹟）、鹿耳門港、竹筏港
-
-
+2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內
 </div>
+<h2>二、河口沙洲潟湖生態 : </h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+海灘、沙洲、沙嘴、瀉湖、海埔地
+</div>
+<h2>三、紅樹林濕地生態 : </h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性
+</div>
+<h2>四、沙洲 : </h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+青山港汕、網仔寮汕、頂頭額汕、新浮崙汕、曾文溪口離岸沙洲、臺南城西濱海沙洲
+</div>
+<h2>五、古蹟與史蹟 : </h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
+四草砲台（國定二級古蹟）、安順鹽場運鹽碼頭（市定古蹟）、鹿耳門港、竹筏港
+</div>
+
+
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">交通資訊</h1>
 
