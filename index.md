@@ -115,5 +115,13 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">住宿資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+台南大員皇冠假日酒店 離台江國家公園1.2公里 台灣台南安平區州平路289號
 
+臺邦商旅 離台江國家公園5.0公里 台灣台南安平區永華二街199號
+
+沐府海旅 離台江國家公園2.4公里 台灣台南安平區安億路288號
+
+歐薇汽車旅館 (台南館) 離台江國家公園3.3公里 台灣台南育平路181號
+
+康橋商旅 - 臺南民生館 離台江國家公園5.5公里 台灣台南中西區民生路二段299號
 </div>
