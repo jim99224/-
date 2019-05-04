@@ -11,6 +11,10 @@
   .image-position{
     width: 10px:
   }
+body{
+	background-color:#CCFF99;
+}
+	
 $(function(){
 	$(window).scroll(function(){  
 	var scrollt = document.documentElement.scrollTop + document.body.scrollTop; 
