@@ -138,6 +138,9 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">參考資料</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<a href="https://www.tripadvisor.com.tw/RestaurantsNear-g13792454-d5513252-Taijian_National_Park-Annan_Tainan.html">貓途鷹</a>
+<a href="https://www.tripadvisor.com.tw/RestaurantsNear-g13792454-d5513252-Taijian_National_Park-Annan_Tainan.html">貓途鷹(美食)</a>
+<a href="https://www.tripadvisor.com.tw/HotelsNear-g13792454-d5513252-Taijian_National_Park-Annan_Tainan.html">貓途鷹(住宿)</a>
+<a href="https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%B1%9F%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92">維基百科</a>
+<a href="http://np.cpami.gov.tw/youth/index.php?option=com_content&view=article&id=4206&Itemid=6">台灣國家公園<>
 
 </div>
