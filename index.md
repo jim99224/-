@@ -94,6 +94,7 @@ $("#gotop").click(function(){
 
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">交通資訊</h1>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 ♦ 搭乘高鐵：請至高鐵臺南站下車
 
 1. 轉乘高鐵接駁車高鐵臺南站－臺南市政府線：
@@ -109,7 +110,7 @@ $("#gotop").click(function(){
 1. 轉乘臺灣好行99台江線至四草大橋西站下車。
 
 2. 轉乘計程車至台江國家公園管理處。
-
+<>
 
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">補充資料</h1>
