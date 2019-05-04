@@ -99,9 +99,9 @@ $("#gotop").click(function(){
 
 <h3>1. 轉乘高鐵接駁車高鐵臺南站－臺南市政府線：</h3>
 
-   <h3>   (1)至興南客運台南站（大億麗緻酒店）下車，轉乘臺灣好行99台江線至四草大橋西站下車。</h3>
+   <h3>     (1)至興南客運台南站（大億麗緻酒店）下車，轉乘臺灣好行99台江線至四草大橋西站下車。</h3>
 
-   <h3>   (2)至臺南市政府站下車，轉搭計程車至台江國家公園管理處。</h3>
+   <h3>     (2)至臺南市政府站下車，轉搭計程車至台江國家公園管理處。</h3>
 
 <h3>2. 轉乘臺鐵沙崙線至臺南火車站，轉乘臺灣好行99台江線至四草大橋西站下車。</h3>
 
@@ -113,4 +113,7 @@ $("#gotop").click(function(){
 </div>
 
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm">補充資料</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm">住宿資訊</h1>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+
+</div>
