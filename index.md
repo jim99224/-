@@ -135,3 +135,9 @@ $("#gotop").click(function(){
 <h3><gg style="font-weight:900;">文章牛肉湯</gg>&nbsp;&nbsp;安平區安平路590號&nbsp;&nbsp;電話:0962284626</h3>
 <h3><gg style="font-weight:900;">義豐冬瓜茶</gg>&nbsp;&nbsp;安平區安平路768號&nbsp;&nbsp;電話:0962219197</h3>
 </div>
+
+<h1 style="color: black; font-weight: bold;font-size:0.8cm">參考資料</h1>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<a href="https://www.tripadvisor.com.tw/RestaurantsNear-g13792454-d5513252-Taijian_National_Park-Annan_Tainan.html">貓途鷹</a>
+
+</div>
