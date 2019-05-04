@@ -124,5 +124,14 @@ $("#gotop").click(function(){
 <h3><gg style="font-weight:900;">歐薇汽車旅館(台南館)</gg>&nbsp;&nbsp;離台江國家公園3.3公里&nbsp;&nbsp;台灣台南育平路181號</h3>
 
 <h3><gg style="font-weight:900;">康橋商旅(臺南民生館)</gg>&nbsp;&nbsp;離台江國家公園5.5公里&nbsp;&nbsp;台灣台南中西區民生路二段299號</h3>
+</div>
 
+
+<h1 style="color: black; font-weight: bold;font-size:0.8cm">美食資訊</h1>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<h3><gg style="font-weight:900;">同記安平豆花(安平総店)</gg>&nbsp;&nbsp;安平區安北路433號&nbsp;&nbsp;電話:0963915385</h3>
+<h3><gg style="font-weight:900;">椰庭</gg>&nbsp;&nbsp;四草大道261號四草里&nbsp;&nbsp;電話:0962840988</h3>
+<h3><gg style="font-weight:900;">元素</gg>&nbsp;&nbsp;州平路289號1樓 台南大員皇冠假日酒店 電話:0963911899</h3>
+<h3><gg style="font-weight:900;">文章牛肉湯</gg>&nbsp;&nbsp;安平區安平路590號&nbsp;&nbsp;電話:0962284626</h3>
+<h3><gg style="font-weight:900;">義豐冬瓜茶</gg>&nbsp;&nbsp;安平區安平路768號&nbsp;&nbsp;電話:0962219197</h3>
 </div>
