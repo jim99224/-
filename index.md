@@ -82,11 +82,14 @@ $("#gotop").click(function(){
 </div>
 <h2>四、沙洲 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-<h3>青山港汕  網仔寮</h3><h3>頂頭額汕  新浮崙汕</h3><h3>曾文溪口離岸沙洲  臺南城西濱海沙洲</h3>
+<h3>青山港汕         網仔寮</h3>
+<h3>頂頭額汕         新浮崙汕</h3>
+<h3>曾文溪口離岸沙洲  臺南城西濱海沙洲</h3>
 </div>
 <h2>五、古蹟與史蹟 : </h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-<h3>四草砲台(國定二級古蹟)  安順鹽場運鹽碼頭(市定古蹟)</h3><h3>鹿耳門港  竹筏港</h3>
+<h3>四草砲台(國定二級古蹟)      鹿耳門港</h3>
+<h3>安順鹽場運鹽碼頭(市定古蹟)  竹筏港</h3>
 </div>
 
 
