@@ -115,7 +115,7 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">住宿資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<h3>台南大員皇冠假日酒店 離台江國家公園1.2公里 台灣台南安平區州平路289號
+<h3><gg style="font-weight:900;">台南大員皇冠假日酒店</gg>&nbsp;&nbsp;離台江國家公園1.2公里&nbsp;&nbsp;台灣台南安平區州平路289號</h3>
 
 <h3><gg style="font-weight:900;">臺邦商旅</gg>&nbsp;&nbsp;離台江國家公園5.0公里&nbsp;&nbsp;台灣台南安平區永華二街199號</h3>
 
@@ -124,4 +124,5 @@ $("#gotop").click(function(){
 <h3><gg style="font-weight:900;">歐薇汽車旅館(台南館)</gg>&nbsp;&nbsp;離台江國家公園3.3公里&nbsp;&nbsp;台灣台南育平路181號</h3>
 
 <h3><gg style="font-weight:900;">康橋商旅(臺南民生館)</gg>&nbsp;&nbsp;離台江國家公園5.5公里&nbsp;&nbsp;台灣台南中西區民生路二段299號</h3>
+
 </div>
