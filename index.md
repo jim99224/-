@@ -118,18 +118,18 @@ $("#gotop").click(function(){
 <p>
   <table border="1" cellpadding="5" cellspacing="0" width="90%">
 
-<thead style="font-size=0.6cm;font-weight:900;font-family:標楷體"> 
+<thead> 
 <tr>
-<th width="31%">酒店/旅館 </th><th width="48%">地址</th><th width="18%">電話</th>
+<th style="font-size0.6cm;font-family:標楷體" width="31%">酒店/旅館 </th><th width="48%">地址</th><th width="18%">電話</th>
 </tr>
 </thead>
  
-<tbody style="font-size0.6cm;font-family:標楷體">
+<tbody>
   
 <tr>
-<td>台南大員皇冠假日酒店</td>
-<td>台灣台南安平區州平路289號</td>
-<td>06-3911899</td>
+<td style="font-size0.6cm;font-family:標楷體">台南大員皇冠假日酒店</td>
+<td style="font-size0.6cm;font-family:標楷體">台灣台南安平區州平路289號</td>
+<td style="font-size0.6cm;font-family:標楷體">06-3911899</td>
 </tr>
 
 <tr>
