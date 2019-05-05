@@ -19,6 +19,10 @@ td{
    font-family:"標楷體";
    font-size:18px;
 }
+th{
+   font-family:"標楷體";
+   font-size:18px;
+}
 	
 $(function(){
 	$(window).scroll(function(){  
