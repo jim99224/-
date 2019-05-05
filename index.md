@@ -173,11 +173,50 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">美食資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<h3><gg style="font-weight:900;">同記安平豆花(安平総店)</gg>&nbsp;&nbsp;安平區安北路433號&nbsp;&nbsp;電話:0963915385</h3>
-<h3><gg style="font-weight:900;">椰庭</gg>&nbsp;&nbsp;四草大道261號四草里&nbsp;&nbsp;電話:0962840988</h3>
-<h3><gg style="font-weight:900;">元素</gg>&nbsp;&nbsp;州平路289號1樓 台南大員皇冠假日酒店 電話:0963911899</h3>
-<h3><gg style="font-weight:900;">文章牛肉湯</gg>&nbsp;&nbsp;安平區安平路590號&nbsp;&nbsp;電話:0962284626</h3>
-<h3><gg style="font-weight:900;">義豐冬瓜茶</gg>&nbsp;&nbsp;安平區安平路768號&nbsp;&nbsp;電話:0962219197</h3>
+<p>
+  <table border="1" cellpadding="5" cellspacing="0" width="90%">
+
+<thead> 
+<tr>
+<th width="31%">店名</th><th width="48%">地址</th><th width="18%">電話</th>
+</tr>
+</thead>
+ 
+<tbody>
+  
+<tr>
+<td>同記安平豆花(安平総店)</td>
+<td>安平區安北路433號</td>
+<td>0963915385</td>
+</tr>
+
+<tr>
+<td>椰庭</td>
+<td>四草大道261號四草里</td>
+<td>0962840988</td>
+</tr>
+
+<tr>
+<td>元素</td>
+<td>州平路289號1樓</td>
+<td>0963911899</td>
+</tr>
+
+<tr>
+<td>文章牛肉湯</td>
+<td>安平區安平路590號</td>
+<td>0962284626</td>
+</tr>
+
+<tr>
+<td>義豐冬瓜茶</td>
+<td>安平區安平路768號</td>
+<td>0962219197</td>
+</tr>
+
+</tbody>
+</table>
+</p>
 </div>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">參考資料</h1>
