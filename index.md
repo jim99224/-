@@ -30,7 +30,7 @@ $("#gotop").click(function(){
 
 </style>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:標楷體">
-<h1 style="color: black; font-weight: bold;font-size:1cm"><center>台江國家公園</center></h1>
+<h1 style="color: black; font-weight: bold;font-size:40px"><center>台江國家公園</center></h1>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
 <img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Yanshuei_River_marine_outfall.JPG/375px-Yanshuei_River_marine_outfall.JPG" align="right">
