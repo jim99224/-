@@ -22,6 +22,7 @@ td{
 th{
    font-family:"標楷體";
    font-size:18px;
+   font-weight:900;
 }
 	
 $(function(){
@@ -185,7 +186,7 @@ $("#gotop").click(function(){
 <tbody>
   
 <tr>
-<td>同記安平豆花(安平総店)</td>
+<td>同記安平豆花</td>
 <td>安平區安北路433號</td>
 <td>0963915385</td>
 </tr>
