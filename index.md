@@ -15,6 +15,11 @@ body{
 	background-color:#CCFF99;
 }
 	
+td{
+   font-family:"標楷體";
+   font-size:18px;
+}
+	
 $(function(){
 	$(window).scroll(function(){  
 	var scrollt = document.documentElement.scrollTop + document.body.scrollTop; 
