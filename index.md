@@ -115,15 +115,50 @@ $("#gotop").click(function(){
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">住宿資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<h3><gg style="font-weight:900;">台南大員皇冠假日酒店</gg>&nbsp;&nbsp;離台江國家公園1.2公里&nbsp;&nbsp;台灣台南安平區州平路289號</h3>
+<p>
+  <table border="1" cellpadding="5" cellspacing="0" width="90%">
 
-<h3><gg style="font-weight:900;">臺邦商旅</gg>&nbsp;&nbsp;離台江國家公園5.0公里&nbsp;&nbsp;台灣台南安平區永華二街199號</h3>
+<thead> 
+<tr>
+<th width="31%">酒店/旅館 </th><th width="48%">地址</th><th width="18%">電話</th>
+</tr>
+</thead>
+ 
+<tbody>
+  
+<tr>
+<td>台南大員皇冠假日酒店</td>
+<td>台灣台南安平區州平路289號</td>
+<td>886-6-391-1899</td>
+</tr>
 
-<h3><gg style="font-weight:900;">沐府海旅</gg>&nbsp;&nbsp;離台江國家公園2.4公里&nbsp;&nbsp;台灣台南安平區安億路288號</h3>
+<tr>
+<td>臺邦商旅</td>
+<td>台灣台南安平區永華二街199號</td>
+<td>06-2931888</td>
+</tr>
 
-<h3><gg style="font-weight:900;">歐薇汽車旅館(台南館)</gg>&nbsp;&nbsp;離台江國家公園3.3公里&nbsp;&nbsp;台灣台南育平路181號</h3>
+<tr>
+<td>沐府海旅</td>
+<td>台灣台南安平區安億路288號</td>
+<td> 06-293-9998</td>
+</tr>
 
-<h3><gg style="font-weight:900;">康橋商旅(臺南民生館)</gg>&nbsp;&nbsp;離台江國家公園5.5公里&nbsp;&nbsp;台灣台南中西區民生路二段299號</h3>
+<tr>
+<td>歐薇汽車旅館(台南館)</td>
+<td>台灣台南育平路181號</td>
+<td>06-2993000</td>
+</tr>
+
+<tr>
+<td>康橋商旅(臺南民生館)</td>
+<td>台灣台南中西區民生路二段299號</td>
+<td>06-2245566</td>
+</tr>
+
+</tbody>
+</table>
+</p>
 </div>
 
 
