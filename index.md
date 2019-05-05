@@ -25,20 +25,44 @@ th{
    font-weight:900;
 }
 	
-$(function(){
-	$(window).scroll(function(){  
-	var scrollt = document.documentElement.scrollTop + document.body.scrollTop; 
-	if( scrollt >200 ){   
-		$("#gotop").fadeIn(400);     
-	}else{      
-		$("#gotop").stop().fadeOut(400); 
-	}
-});
-$("#gotop").click(function(){ 
-		$("html,body").animate({scrollTop:"0px"},200);
-});
-
+.button{
+    background-color: #4CAF50;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ #top{
+    position:fixed;
+    right:10%;
+    bottom:18%;
+ }
+ #bottom{
+    position:fixed;
+    right:10%;
+    bottom:10%;
+ }
+ 
 </style>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#top').click(function () {
+        $('html, body').animate({scrollTop: 0},1000);
+      });
+      $('#bottom').click(function () {
+        $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
+      });
+    });
+  </script>
+</head>
+
 <div style="font-family:微軟正黑體">
 <h1 style="color: black; font-weight: bold;font-size:40px"><center>台江國家公園</center></h1>
 
@@ -229,3 +253,5 @@ $("#gotop").click(function(){
 <a href="https://www.tjnp.gov.tw//chtNature/Environment/ShiDiXueXiao2.htm"><h3>台江國家公園(台江濕地學校)</h3></a>
 </div>
 </div>
+<a class="button" id="top" href="#">點此返回網頁頂部</a>
+<a class="button" id="bottom" href="#">點此到達網頁底部</a>
