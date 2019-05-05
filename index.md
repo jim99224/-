@@ -118,19 +118,19 @@ $("#gotop").click(function(){
 <p>
   <table border="1" cellpadding="5" cellspacing="0" width="90%">
 
-<thead> 
+<thead style="font-size=0.5cm;font-weight:900;"> 
 <tr>
 <th width="31%">酒店/旅館 </th><th width="48%">地址</th><th width="18%">電話</th>
 </tr>
 </thead>
  
-<tbody>
+<tbody style="font-size0.5cm">
   
-<tr><h3>
+<tr>
 <td>台南大員皇冠假日酒店</td>
 <td>台灣台南安平區州平路289號</td>
 <td>06-3911899</td>
-</h3></tr>
+</tr>
 
 <tr>
 <td>臺邦商旅</td>
