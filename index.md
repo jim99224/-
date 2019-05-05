@@ -29,7 +29,7 @@ $("#gotop").click(function(){
 });
 
 </style>
-<div font-family:標楷體">
+<div style="font-family:標楷體">
 <h1 style="color: black; font-weight: bold;font-size:40px"><center>台江國家公園</center></h1>
 
 <h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
