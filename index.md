@@ -290,9 +290,9 @@ $(".wheel-button").wheelmenu({
     <span>+</span>
   </a>
   <ul id="wheel">
-  <li class="item"><a class="button" id="bottom" href="#">點此到達網頁底部</a></li>
-  <li class="item"><a class="button" id="top" href="#">點此返回網頁頂部</a></li>
-  <li class="item"><a class="button" id="a" href="#">基本資訊</a></li>
+  <li class="item"><a  id="bottom" href="#">點此到達網頁底部</a></li>
+  <li class="item"><a  id="top" href="#">點此返回網頁頂部</a></li>
+  <li class="item"><a  id="a" href="#">基本資訊</a></li>
 </ul>
 
 
