@@ -87,19 +87,30 @@ $(".wheel-button").wheelmenu({
         $('html, body').animate({scrollTop:$("#A").offset().top}, 1000);
       });
     });
-  </script>
-<script language="JavaScript" src="../js/jquery-1.11.1.js"></script>
-	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-	<html>
-	  <head>
-	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<script language="JavaScript" src="../js/jquery-1.11.1.js"></script>
-			<script type="text/javascript">
-			</script>
-		</head>
-	        <body>		
-              <body>	
+  </script>	
 </html>
+
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>jQuery Wheel Menu Demo 1: Default Settings</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+
+<!-- Edit Below -->
+
+<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+
+   <script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+   <link href='css/elusive-webfont.css' rel='stylesheet' type='text/css'>
+
+
+
 </head>
 
 <div style="font-family:微軟正黑體">
@@ -293,6 +304,11 @@ $(".wheel-button").wheelmenu({
 </div>
 </div>
 
+
+
+
+	
+	
 <a href="#wheel" class="wheel-button">
     <span>+</span>
   </a>
