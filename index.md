@@ -24,23 +24,8 @@ th{
    font-size:18px;
    font-weight:900;
 }
-	
- #top{
-    position:fixed;
-    right:10%;
-    bottom:40%;
-  }
- #bottom{
-    position:fixed;
-    right:10%;
-    bottom:33%;
- }
- #a{
-    position:fixed;
-    left:10%;
-    bottom:47%;
- }
- 
+
+
 </style>
 <html>
 <head>
