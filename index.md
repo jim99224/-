@@ -47,6 +47,44 @@ th{
     bottom:10%;
  }
  
+ 
+ .sample input{
+display: none;
+}
+.sample label{
+display: inline-block;
+position: relative;
+cursor: pointer;
+margin-left: 20px;
+padding: 10px 20px;
+border-radius: 2px;
+color: #3e4956;
+font-size: 14px;
+text-align: center;
+line-height: 1;
+}
+.sample label:before{
+position: absolute;
+content: "";
+top: 50%;
+left: -10px;
+width: 20px;
+height: 20px;
+margin-top: -10px;
+background: #bdc3c7;
+border-radius: 50%;
+}
+.sample input[type="radio"]:checked + label:after {
+position: absolute;
+content: "";
+top: 50%;
+left: -4px;
+width: 8px;
+height: 8px;
+margin-top: -4px;
+border-radius: 50%;
+background: #879c18;
+}
 </style>
 
 <head>
@@ -255,3 +293,15 @@ th{
 </div>
 <a class="button" id="top" href="#">點此返回網頁頂部</a>
 <a class="button" id="bottom" href="#">點此到達網頁底部</a>
+
+
+
+
+<div class="sample">
+<input type="radio" name="s4" id="select1" value="1" checked="">
+<label for="select1">Hdd</label>
+<input type="radio" name="s4" id="select2" value="0">
+<label for="select2">Ssd</label>
+<input type="radio" name="s4" id="select3" value="0">
+<label for="select3">Ram</label>
+</div>
