@@ -72,7 +72,7 @@ $(".wheel-button").wheelmenu({
     angle: “all”
  });
 </style>
-
+<html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script>
@@ -88,7 +88,6 @@ $(".wheel-button").wheelmenu({
       });
     });
   </script>	
-</html>
 
 
 <meta charset="UTF-8" />
@@ -317,7 +316,7 @@ $(".wheel-button").wheelmenu({
   <li class="item"><a  id="top" href="#">點此返回網頁頂部</a></li>
   <li class="item"><a  id="a" href="#">基本資訊</a></li>
 </ul>
-
+</html>
 
 
 
