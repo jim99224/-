@@ -88,28 +88,6 @@ $(".wheel-button").wheelmenu({
       });
     });
   </script>	
-
-
-<meta charset="UTF-8" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-<title>jQuery Wheel Menu Demo 1: Default Settings</title>
-
-<link rel="stylesheet" type="text/css" href="css/default.css" />
-
-<!-- Edit Below -->
-
-<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
-
-   <script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
-
-   <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-   <link href='css/elusive-webfont.css' rel='stylesheet' type='text/css'>
-
-
-
 </head>
 
 <div style="font-family:微軟正黑體">
@@ -308,14 +286,91 @@ $(".wheel-button").wheelmenu({
 
 	
 	
-<a href="#wheel" class="wheel-button">
-    <span>+</span>
-  </a>
-  <ul id="wheel">
-  <li class="item"><a  id="bottom" href="#">點此到達網頁底部</a></li>
-  <li class="item"><a  id="top" href="#">點此返回網頁頂部</a></li>
-  <li class="item"><a  id="a" href="#">基本資訊</a></li>
-</ul>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>jQuery Wheel Menu Demo 1: Default Settings</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+
+<!-- Edit Below -->
+
+<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+
+   <script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+   <link href='css/elusive-webfont.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div>
+
+<!-- Top Navi -->
+
+<div>
+
+<h1>jQuery Wheel Menu Demo 1: Default Settings</h1>
+
+</div>
+
+<div>
+
+<a href="index.html">Demo 1</a>
+
+<a href="index2.html">Demo 2</a>
+
+<a href="index3.html">Demo 3</a>
+
+<a href="index4.html">Demo 4</a>
+
+<a href="index5.html">Demo 5</a>
+
+</div>
+
+<div>
+
+ <a href="#wheel">
+
+  <i></i>
+
+ </a>
+
+ <div>Click me</div>
+
+     <ul id="wheel">
+
+       <li><a href="#home" id="top">回到頂層</a></li>
+
+       <li><a href="#home" id="bottom">回到底層</a></li>
+
+       <li><a href="#home" id="a">基本資訊</a></li>
+     </ul>
+
+     
+
+   </div>
+
+</div><!-- Container -->
+
+<script type="text/javascript">
+
+     $(".wheel-button").wheelmenu();
+
+   </script>
+
+</body>
+
 </html>
 
 
