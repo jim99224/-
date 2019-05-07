@@ -25,26 +25,21 @@ th{
    font-weight:900;
 }
 	
-.button{
-    background-color: #a0fdff;
-    border: 2px solid black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    display:block;
+ #top{
+    position:fixed;
+    right:10%;
+    bottom:40%;
   }
-.button:hover {
-  background-color: #A1D0FF;
-}
-  #a{
+ #bottom{
+    position:fixed;
+    right:10%;
+    bottom:33%;
+ }
+ #a{
     position:fixed;
     left:10%;
     bottom:47%;
-  }
+ }
  
  
 .wheel-button {
@@ -93,6 +88,18 @@ $(".wheel-button").wheelmenu({
       });
     });
   </script>
+<script language="JavaScript" src="../js/jquery-1.11.1.js"></script>
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+	<html>
+	  <head>
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<script language="JavaScript" src="../js/jquery-1.11.1.js"></script>
+			<script type="text/javascript">
+			</script>
+		</head>
+	        <body>		
+              <body>	
+</html>
 </head>
 
 <div style="font-family:微軟正黑體">
