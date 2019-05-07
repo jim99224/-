@@ -35,56 +35,47 @@ th{
     display: inline-block;
     font-size: 16px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display:block;
+  }
+.button:hover {
+  background-color: #A1D0FF;
 }
- #top{
+  #a{
     position:fixed;
-    right:10%;
-    bottom:18%;
- }
- #bottom{
-    position:fixed;
-    right:10%;
-    bottom:10%;
- }
+    left:10%;
+    bottom:47%;
+  }
  
  
- .sample input{
-display: none;
+.wheel-button {
+  position: relative;
 }
-.sample label{
-display: inline-block;
-position: relative;
-cursor: pointer;
-margin-left: 20px;
-padding: 10px 20px;
-border-radius: 2px;
-color: #3e4956;
-font-size: 14px;
-text-align: center;
-line-height: 1;
+  
+.wheel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 200px; /* this will determine the diameter of the circle  */
+  height: 200px; /* this will determine the diameter of the circle  */
+  visibility: hidden;
+  position: relative;
+  display: none;
 }
-.sample label:before{
-position: absolute;
-content: "";
-top: 50%;
-left: -10px;
-width: 20px;
-height: 20px;
-margin-top: -10px;
-background: #bdc3c7;
-border-radius: 50%;
+  
+.wheel li {
+  overflow: hidden;
+  float:left;
 }
-.sample input[type="radio"]:checked + label:after {
-position: absolute;
-content: "";
-top: 50%;
-left: -4px;
-width: 8px;
-height: 8px;
-margin-top: -4px;
-border-radius: 50%;
-background: #879c18;
+  
+.wheel li a {
+  display: block;
 }
+
+$(".wheel-button").wheelmenu({
+    animation: "fly",
+    animationSpeed: "medium",
+    angle: “all”
+ });
 </style>
 
 <head>
@@ -97,6 +88,9 @@ background: #879c18;
       $('#bottom').click(function () {
         $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
       });
+      $('#a').click(function () {
+        $('html, body').animate({scrollTop:$("#A").offset().top}, 1000);
+      });
     });
   </script>
 </head>
@@ -104,7 +98,7 @@ background: #879c18;
 <div style="font-family:微軟正黑體">
 <h1 style="color: black; font-weight: bold;font-size:40px"><center>台江國家公園</center></h1>
 
-<h1 style="color: black; font-weight: bold;font-size:0.8cm">基本資訊</h1>
+<h1 style="color: black; font-weight: bold;font-size:0.8cm" id="A">基本資訊</h1>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;">
 <img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Yanshuei_River_marine_outfall.JPG/375px-Yanshuei_River_marine_outfall.JPG" align="right">
 台江國家公園是臺灣第8座國家公園，也是臺灣唯一濕地型國家公園。位於河海匯流之地，薈萃了「自然生態」、「人文歷史」與「漁鹽產業」等三大資源特色。廣大的河口、潟湖、魚塭及紅樹林等豐美的濕地環境，孕育了豐饒的生態資源，秋冬時節，也是候鳥過境、度冬的良好棲所；內海滄桑之變與開臺歷史，見證了台江地區深厚的文化底蘊；而阡陌縱橫的魚塭與鹽田，交織出人類與自然環境的和諧互動。台江國家公園宛若是一間間的戶外大教室，也是一所可以親近自然學習的濕地學校。
@@ -291,17 +285,16 @@ background: #879c18;
 <a href="https://www.tjnp.gov.tw//chtNature/Environment/ShiDiXueXiao2.htm"><h3>台江國家公園(台江濕地學校)</h3></a>
 </div>
 </div>
-<a class="button" id="top" href="#">點此返回網頁頂部</a>
-<a class="button" id="bottom" href="#">點此到達網頁底部</a>
+
+<a href="#wheel" class="wheel-button">
+    <span>+</span>
+  </a>
+  <ul id="wheel">
+  <li class="item"><a class="button" id="bottom" href="#">點此到達網頁底部</a></li>
+  <li class="item"><a class="button" id="top" href="#">點此返回網頁頂部</a></li>
+  <li class="item"><a class="button" id="a" href="#">基本資訊</a></li>
+</ul>
 
 
 
 
-<div class="sample">
-<input type="radio" name="s4" id="select1" value="1" checked="">
-<label for="select1">Hdd</label>
-<input type="radio" name="s4" id="select2" value="0">
-<label for="select2">Ssd</label>
-<input type="radio" name="s4" id="select3" value="0">
-<label for="select3">Ram</label>
-</div>
