@@ -41,36 +41,6 @@ th{
     bottom:47%;
  }
  
- 
-.wheel-button {
-  position: relative;
-}
-  
-.wheel {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  width: 200px; /* this will determine the diameter of the circle  */
-  height: 200px; /* this will determine the diameter of the circle  */
-  visibility: hidden;
-  position: relative;
-  display: none;
-}
-  
-.wheel li {
-  overflow: hidden;
-  float:left;
-}
-  
-.wheel li a {
-  display: block;
-}
-
-$(".wheel-button").wheelmenu({
-    animation: "fly",
-    animationSpeed: "medium",
-    angle: “all”
- });
 </style>
 <html>
 <head>
@@ -318,11 +288,6 @@ $(".wheel-button").wheelmenu({
 
 <!-- Top Navi -->
 
-<div>
-
-<h1>jQuery Wheel Menu Demo 1: Default Settings</h1>
-
-</div>
 
 <div>
 
