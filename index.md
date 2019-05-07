@@ -256,7 +256,6 @@ th{
 
 	
 	
-<!DOCTYPE html>
 
 <html>
 
@@ -307,7 +306,7 @@ th{
 
  <a href="#wheel">
 
-  <i></i>
+  gg
 
  </a>
 
