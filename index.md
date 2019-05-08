@@ -29,36 +29,69 @@
         font-size: 18px;
         font-weight: 900;
     }
-    #a{
-    	position:fixed;
-   	 left:10%;
-   	 bottom:47%;
-    }
-    #b{
-    	position:fixed;
-    	left:10%;
-    	bottom:40%;
-    }
-    #c{
-    	position:fixed;
-    	left:10%;
-    	bottom:33%;
-    }
-    #d{
-    	position:fixed;
-    	left:10%;
-    	bottom:26%;
-    }
-    #e{
-    	position:fixed;
-    	left:10%;
-    	bottom:19%;
-    }
-    #f{
-    	position:fixed;
-    	left:10%;
-    	bottom:12%;
-    }
+  body {
+    background-color: #CCFF99
+}
+
+.blackborder {
+    border: 2px black solid;
+}
+
+p {
+    font-family: "微軟正黑體";
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "微軟正黑體";
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "微軟正黑體";
+    font-weight: bold;
+}
+
+td {
+    font-family: "微軟正黑體";
+    font-size: 18px;
+}
+
+.button {
+    background-color: #a0fdff;
+    border: 2px solid black;
+    color: ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+
+.button:hover {
+    background-color: #A1D0FF;
+}
+
+#flip {
+    background-color: #a0fdff;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+
+.button-bar {
+    position: fixed;
+    top: 20%;
+    right: 5%;
+}
    
 
 </style>
@@ -109,6 +142,9 @@
                     scrollTop: $("#F").offset().top
                 }, 1000);
             });
+	     $("#flip").click(function(){
+        	$(".button").slideToggle("slow");
+      	    });
         });
     </script>
     
@@ -302,5 +338,18 @@
 
    
 </body>
+
+<div class="button-bar">
+	<a id ="flip">選單</a>
+	<a class="button" id="a" href="#">基本資訊</a>
+	<a class="button" id="b" href="#">標示意涵</a>
+	<a class="button" id="c" href="#">特色介紹</a>
+	<a class="button" id="d" href="#">交通資訊</a>
+	<a class="button" id="e" href="#">住宿資訊</a>
+	<a class="button" id="f" href="#">美食資訊</a>
+	<a class="button" id="top" href="#">網頁頂端</a>
+	<a class="button" id="bottom" href="#">網頁底部</a>
+	<a class="button" id="home" href="#">返回主頁</a>
+</div>
 
 </html>
