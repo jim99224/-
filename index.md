@@ -29,74 +29,37 @@
         font-size: 18px;
         font-weight: 900;
     }
-    .circle-container {
-	    position: relative;
-	    /* 1 */
-	    width: 20em;
-	    height: 20em;
-	    padding: 0;
-	    border-radius: 50%;
-	    list-style: none;
-	    /* 2 */
-	    box-sizing: content-box;
-	    /* 3 */
-	    margin: 5em auto 0;
-	    border: solid 5px tomato;
-	}
-
-	.circle-container > * {
-	    /* 4 */
-	    display: block;
-	    position: absolute;
-	    top: 50%;
-	    left: 50%;
-	    width: 6em;
-	    height: 6em;
-	    margin: -3em;
-	}
-
-	.circle-container >:nth-of-type(1) {
-	    transform: rotate(0deg) translate(10em) rotate(0deg);
-	}
-
-	.circle-container >:nth-of-type(2) {
-	    transform: rotate(45deg) translate(10em) rotate(-45deg);
-	}
-
-	.circle-container >:nth-of-type(3) {
-	    transform: rotate(90deg) translate(10em) rotate(-90deg);
-	}
-
-	.circle-container >:nth-of-type(4) {
-	    transform: rotate(135deg) translate(10em) rotate(-135deg);
-	}
-
-	.circle-container >:nth-of-type(5) {
-	    transform: rotate(180deg) translate(10em) rotate(-180deg);
-	}
-
-	.circle-container >:nth-of-type(6) {
-	    transform: rotate(225deg) translate(10em) rotate(-225deg);
-	}
-
-	.circle-container >:nth-of-type(7) {
-	    transform: rotate(270deg) translate(10em) rotate(-270deg);
-	}
-
-	.circle-container >:nth-of-type(8) {
-	    transform: rotate(315deg) translate(10em) rotate(-315deg);
-	}
-
-	.circle-container img {
-	    display: block;
-	    width: 100%;
-	    border-radius: 50%;
-	    filter: grayscale(100%);
-	}
-
-	.circle-container img:hover {
-	    filter: grayscale(0);
-	}
+    #a{
+    	position:fixed;
+   	 left:10%;
+   	 bottom:47%;
+    }
+    #b{
+    	position:fixed;
+    	left:10%;
+    	bottom:40%;
+    }
+    #c{
+    	position:fixed;
+    	left:10%;
+    	bottom:33%;
+    }
+    #d{
+    	position:fixed;
+    	left:10%;
+    	bottom:26%;
+    }
+    #e{
+    	position:fixed;
+    	left:10%;
+    	bottom:19%;
+    }
+    #f{
+    	position:fixed;
+    	left:10%;
+    	bottom:12%;
+    }
+   
 
 </style>
 
@@ -139,6 +102,11 @@
             $('#e').click(function() {
                 $('html, body').animate({
                     scrollTop: $("#E").offset().top
+                }, 1000);
+            });
+	    $('#f').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#F").offset().top
                 }, 1000);
             });
         });
@@ -272,7 +240,7 @@
             </p>
         </div>
 
-        <h1 style="color: black; font-weight: bold;font-size:0.8cm">美食資訊</h1>
+        <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="F">美食資訊</h1>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
             <p>
                 <table border="1" cellpadding="5" cellspacing="0" width="90%">
@@ -332,16 +300,7 @@
         </div>
     </div>
 
-    <ul class='circle-container'>
-  		<li><img id="top" src='http://lorempixel.com/100/100/city'></li>
-  		<li><img id="bottom" src='http://lorempixel.com/100/100/nature'></li>
-  		<li><img id="a" src='http://lorempixel.com/100/100/abstract'></li>
-  		<li><img id="b" src='http://lorempixel.com/100/100/cats'></li>
-  		<li><img id="c" src='http://lorempixel.com/100/100/food'></li>
-  		<li><img id="d" src='http://lorempixel.com/100/100/animals'></li>
-  		<li><img id="e" src='http://lorempixel.com/100/100/business'></li>
-  		<li><img src='http://lorempixel.com/100/100/people'></li>
-	</ul>
+   
 </body>
 
 </html>
