@@ -553,7 +553,7 @@ td {
 	<a class="button" id="f" href="#">美食資訊</a>
 	<a class="button" id="top" href="#">網頁頂端</a>
 	<a class="button" id="bottom" href="#">網頁底部</a>
-	<a class="button" id="home" href="#">返回主頁</a>
+	<a class="button" id="home" href="https://jim99224.github.io/HomePage/">返回主頁</a>
 </div>
 
 </html>
