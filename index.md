@@ -93,7 +93,130 @@ td {
     right: 5%;
 }
    
-
+ * {
+        box-sizing: border-box
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+    }
+    
+    .mySlides {
+        display: none
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Caption text */
+    
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Number text (1/3 etc) */
+    
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /* On smaller screens, decrease text size */
+    
+    @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
 </style>
 
 <html>
@@ -187,6 +310,87 @@ td {
             <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">沙嘴：</gg>沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
             <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">潟湖：</gg>濱外沙洲與陸地之間所圍的水域。</h3>
             <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海埔地：</gg>即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
+            <p></p>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img style="width:100%;height:400px" src="https://www.tjnp.gov.tw/ckfinder/userfiles/images/Newspaper/2013/20131231-11.jpg">
+                    <div class="text"> 四草綠色隧道</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img style="width:100%;height:400px" src="http://np.cpami.gov.tw/filesys/image/01_chinese/12_equarterly/200912/200912_p052_18.jpg">
+                    <div class="text"> 招潮蟹</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img style="width:100%;height:400px" src="https://npgis.cpami.gov.tw/public/data/jpg/B0058p001.jpg">
+                    <div class="text"> 夜鷺</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img style="width:100%;height:400px" src="https://www.tjnp.gov.tw/uploads/%E4%B8%AD%E7%99%BD%E9%B7%BA.jpg">
+                    <div class="text"> 中白鷺</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img style="width:100%;height:400px" src="http://i.epochtimes.com/assets/uploads/2010/03/1003210754572008.jpg">
+                    <div class="text"> 黑面琵鷺</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = slides.length
+                    }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+            <p></p>
         </div>
 
         <h2>三、紅樹林濕地生態 : </h2>
