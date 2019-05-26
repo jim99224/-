@@ -409,7 +409,7 @@ function googleTranslateElementInit() {
 				<div class="tab">
 					<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
 					<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
-					<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態 ')">紅樹林濕地生態 </button>
+					<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態')">紅樹林濕地生態 </button>
 					<button class="tablinks" onclick="openCity(event, '沙洲')">沙洲</button>
 					<button class="tablinks" onclick="openCity(event, '古蹟與史蹟')">古蹟與史蹟</button>
 				</div>
@@ -422,7 +422,7 @@ function googleTranslateElementInit() {
 						鹽水溪口濕地：國家級，有藻類、紅樹林等。<br>
 						</p>
 				</div>
-				<div id="河口沙洲瀉湖生態" class="tabcontent">
+				<div id="河口沙洲潟湖生態" class="tabcontent">
 					    <p>
 						海灘：因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。<br>
 						沙洲：海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。<br>
