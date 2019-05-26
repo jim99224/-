@@ -387,8 +387,6 @@ function googleTranslateElementInit() {
 	
         <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
 	<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-		<body>
-
 				<div class="tab">
 					<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
 					<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
@@ -434,7 +432,6 @@ function googleTranslateElementInit() {
             					<h3>安順鹽場運鹽碼頭(市定古蹟)  竹筏港</h3>
 					</p>
 				</div>					
-		</body>
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
