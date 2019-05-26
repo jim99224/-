@@ -368,6 +368,15 @@ function googleTranslateElementInit() {
 				<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
 			    </p>
 		</div>
+		<div id="河口沙洲瀉湖生態" class="tabcontent">
+			    <p>
+				<h2>海灘：因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h2>
+				<h2>沙洲：海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h2>
+				<h2>沙嘴：沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h2>
+				<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
+				<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
+			    </p>
+		</div>
 	</div>
         <h2>二、河口沙洲潟湖生態 : </h2>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
