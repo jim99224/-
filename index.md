@@ -60,7 +60,7 @@ td {
 .button {
     background-color: #a0fdff;
     border: 2px solid black;
-    color: ;
+    color: #0645ad;
     padding: 8px 24px;
     text-align: center;
     text-decoration: none;
@@ -78,7 +78,7 @@ td {
     background-color: #a0fdff;
     border: 2px solid black;
     color: black;
-    padding: 15px 50px;
+    padding: 8px 42px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
