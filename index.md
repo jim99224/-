@@ -1,4 +1,15 @@
 <style>
+    html {
+    height: 100%;
+  }
+
+  body {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/11/32/6c/1b/photo0jpg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
     .smaller-image {
         width: 300px;
     }
