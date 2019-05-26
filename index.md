@@ -4,7 +4,7 @@
   }
 
   body {
-    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/11/32/6c/1b/photo0jpg.jpg");
+    background-image: url("https://travelblog.expedia.com.tw/wp-content/uploads/2017/05/%E5%8F%B0%E6%B1%9F%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92%E5%9B%9B%E8%8D%89%E7%B4%85%E6%A8%B9%E6%9E%97%E7%B6%A0%E8%89%B2%E9%9A%A7%E9%81%93.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
