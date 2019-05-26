@@ -1,4 +1,44 @@
 <style>
+   body {
+            font-family: Arial;
+        }
+        /* Style the tab */
+        
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        /* Style the buttons inside the tab */
+        
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        /* Change background color of buttons on hover */
+        
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            background-color: #ccc;
+        }
+        /* Style the tab content */
+        
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
     html {
     height: 100%;
   }
@@ -311,8 +351,14 @@ function googleTranslateElementInit() {
         </div>
 
         <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
-
-        <h2>一、濕地 :</h2>
+        <div class="tab">
+        	<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
+        	<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
+        	<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態 ')">紅樹林濕地生態 </button>
+        	<button class="tablinks" onclick="openCity(event, '沙洲')">沙洲</button>
+        	<button class="tablinks" onclick="openCity(event, '古蹟與史蹟')">古蹟與史蹟</button>
+        </div>
+	<div id="濕地" class="tabcontent">
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
             <p><img style="width:300px;height:300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salt_Mountain.jpg/275px-Salt_Mountain.jpg" align="left">
                 <h3 style="font-size:18px;font-family:微軟正黑體;font-weight:900;">2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h3>
@@ -322,7 +368,8 @@ function googleTranslateElementInit() {
                 <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
             </p>
         </div>
-
+	</div>
+	
         <h2>二、河口沙洲潟湖生態 : </h2>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
             <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
