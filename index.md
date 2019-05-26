@@ -351,6 +351,7 @@ function googleTranslateElementInit() {
         </div>
 
         <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
+	<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <div class="tab">
         	<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
         	<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
@@ -369,7 +370,7 @@ function googleTranslateElementInit() {
             </p>
         </div>
 	</div>
-	
+	</div>
         <h2>二、河口沙洲潟湖生態 : </h2>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
             <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
