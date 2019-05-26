@@ -352,24 +352,22 @@ function googleTranslateElementInit() {
 
         <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
 	<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-        <div class="tab">
-        	<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
-        	<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
-        	<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態 ')">紅樹林濕地生態 </button>
-        	<button class="tablinks" onclick="openCity(event, '沙洲')">沙洲</button>
-        	<button class="tablinks" onclick="openCity(event, '古蹟與史蹟')">古蹟與史蹟</button>
-        </div>
-	<div id="濕地" class="tabcontent">
-        <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-            <p>
-                <h2>2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h2>
-                <h4>曾文溪口濕地：國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
-                四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
-                <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
-                <h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
-            </p>
-        </div>
-	</div>
+		<div class="tab">
+			<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
+			<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
+			<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態 ')">紅樹林濕地生態 </button>
+			<button class="tablinks" onclick="openCity(event, '沙洲')">沙洲</button>
+			<button class="tablinks" onclick="openCity(event, '古蹟與史蹟')">古蹟與史蹟</button>
+		</div>
+		<div id="濕地" class="tabcontent">
+			    <p>
+				<h2>2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h2>
+				<h4>曾文溪口濕地：國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h4>
+				四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
+				<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h4>
+				<h4 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h4>
+			    </p>
+		</div>
 	</div>
         <h2>二、河口沙洲潟湖生態 : </h2>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
