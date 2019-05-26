@@ -89,7 +89,7 @@ td {
 
 .button-bar {
     position: fixed;
-    top: 20%;
+    top: 5%;
     right: 5%;
 }
    
