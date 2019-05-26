@@ -350,53 +350,38 @@ function googleTranslateElementInit() {
 
         </div>
 	
-	<script>
-		function openCity(evt, cityName) {
-		    var i, tabcontent, tablinks;
-		    tabcontent = document.getElementsByClassName("tabcontent");
-		    for (i = 0; i < tabcontent.length; i++) {
-			tabcontent[i].style.display = "none";
-		    }
-		    tablinks = document.getElementsByClassName("tablinks");
-		    for (i = 0; i < tablinks.length; i++) {
-			tablinks[i].className = tablinks[i].className.replace(" active", "");
-		    }
-		    document.getElementById(cityName).style.display = "block";
-		    evt.currentTarget.className += " active";
-		}
-
-		// Get the element with id="defaultOpen" and click on it
-		document.getElementById("defaultOpen").click();
-    	</script>
 	
 	
         <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
 	<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-		<div class="tab">
-			<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
-			<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
-			<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態 ')">紅樹林濕地生態 </button>
-			<button class="tablinks" onclick="openCity(event, '沙洲')">沙洲</button>
-			<button class="tablinks" onclick="openCity(event, '古蹟與史蹟')">古蹟與史蹟</button>
-		</div>
-		<div id="濕地" class="tabcontent">
-			    <p>
-				<h2>2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h2>
-				<h2>曾文溪口濕地：<>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h2>
-				四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
-				<h2>七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h2>
-				<h2>鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h2>
-			    </p>
-		</div>
-		<div id="河口沙洲瀉湖生態" class="tabcontent">
-			    <p>
-				<h2>海灘：因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h2>
-				<h2>沙洲：海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h2>
-				<h2>沙嘴：沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h2>
-				<h2>七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h2>
-				<h2>鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h2>
-			    </p>
-		</div>
+		<body>
+
+				<div class="tab">
+					<button class="tablinks" onclick="openCity(event, '濕地')" id="defaultOpen">濕地</button>
+					<button class="tablinks" onclick="openCity(event, '河口沙洲潟湖生態')">河口沙洲潟湖生態</button>
+					<button class="tablinks" onclick="openCity(event, '紅樹林濕地生態 ')">紅樹林濕地生態 </button>
+					<button class="tablinks" onclick="openCity(event, '沙洲')">沙洲</button>
+					<button class="tablinks" onclick="openCity(event, '古蹟與史蹟')">古蹟與史蹟</button>
+				</div>
+				<div id="濕地" class="tabcontent">
+					    <p>
+						<h2>2007年中華民國內政部營建署評選75處國家級、國際級濕地，其中4處位於台江國家公園內。</h2>
+						<h2>曾文溪口濕地：<>國際級，瀕臨絕種的黑面琵鷺每年有三分之二在此渡冬。</h2>
+						四草濕地：國際級，範圍內有多處魚塭、鹽田、渠道及紅樹林，為高蹺鴴等水鳥繁殖與保護區。</h4>
+						<h2>七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h2>
+						<h2>鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h2>
+					    </p>
+				</div>
+				<div id="河口沙洲瀉湖生態" class="tabcontent">
+					    <p>
+						<h2>海灘：因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h2>
+						<h2>沙洲：海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h2>
+						<h2>沙嘴：沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h2>
+						<h2>七股鹽田濕地：</gg>國家級，冬季吸引雁鴨，亦為黑面琵鷺棲息地。</h2>
+						<h2>鹽水溪口濕地：</gg>國家級，有藻類、紅樹林等。</h2>
+					    </p>
+				</div>
+		</body>
 	</div>
         <h2>二、河口沙洲潟湖生態 : </h2>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
