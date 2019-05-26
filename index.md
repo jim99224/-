@@ -383,6 +383,7 @@ function googleTranslateElementInit() {
                 }
             </script>
 
+
 	
         <h1 style="color: black; font-weight: bold;font-size:0.8cm" id="C">公園特色介紹</h1>
 	<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
@@ -422,15 +423,6 @@ function googleTranslateElementInit() {
 					</p>
 				</div>
 		</body>
-	</div>
-        <h2>二、河口沙洲潟湖生態 : </h2>
-        <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-            <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海灘：</gg>因為波浪或沿岸流等搬運沙礫堆積在海濱，就形成了海灘。可分為沙灘、礫灘。</h3>
-            <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">沙洲：</gg>海中的沙礫，因波浪和海流的作用，在濱海地區形成的堤狀沙礫堆積地形，通稱沙洲或障沙島。沙洲完全不與海岸相連者，即為濱外沙洲或離岸沙洲。沙洲為地理學上的名詞，當地人則稱之為「汕」，如：新浮崙汕、頂頭額汕。</h3>
-            <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">沙嘴：</gg>沙洲的一端與陸地連接，另一端伸向海洋，稱為沙嘴，又稱為「汕尾」。</h3>
-            <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">潟湖：</gg>濱外沙洲與陸地之間所圍的水域。</h3>
-            <h3 style="font-size:18px;font-family:微軟正黑體"><gg style="font-weight:900;">海埔地：</gg>即海埔新生地，係指在海岸地區經自然沈積或施工築堤涸出之土地，廣義而言，泛指臨海地區淺灘處表露的新生土地。</h3>
-            <p></p>
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -480,7 +472,7 @@ function googleTranslateElementInit() {
            
             <p></p>
         </div>
-
+	</div>
         <h2>三、紅樹林濕地生態 : </h2>
         <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;font-size:18px;font-family:微軟正黑體">
             <h3><gg style="font-weight:900;">曾文溪北岸的紅樹林，以七股溪與三股溪會合口有近10公頃海茄苳純林的「海寮紅樹林保護區」最具代表性，不但林相優美，也是上千小白鷺、夜鷺及黃頭鷺的群聚營巢所在。 曾文溪北岸以南有三處可欣賞紅樹林濕地</gg></h3>
